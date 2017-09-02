@@ -20,5 +20,5 @@ Route::get('update', 'ApiController@update');
 Route::get('respond', 'ApiController@respond');
 Route::get('webhook', 'ApiController@webhook');
 
-Route::get('webhook', 'ApiController@setWebHook');
+Route::get('setWebHook', 'ApiController@setWebHook');
 Route::post('442718912:AAFfm5yVq225XAsWMNRi7lifOVcRmFmsDjg/webhook', 'ApiController@setWebHook');
